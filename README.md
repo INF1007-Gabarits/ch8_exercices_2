@@ -60,6 +60,30 @@ Il faut suivre la démonstration faite en classe. Voici les étapes :
 
 ### 2.1. Structure d'un fichier INI
 
+Les fichiers INI sont un format de fichiers de configuration assez simple dans lequel on a des sections qui contiennent des valeurs de configuration. La syntaxe est la suivante :
+
+```ini
+[section1]
+param1 = la valeur du param1
+param2 = la valeur du param2
+
+[section2]
+foo = 42
+bar = 1337
+qux = hello world
+```
+
+Pour lire ces fichiers, on peut utiliser le module standard [configparser](https://docs.python.org/3/library/configparser.html). On veut ultimement avoir un fichier qui associe un bouton de manette de jeu à une note ou un accord à envoyer au piano. Par exemple : 
+
+```ini
+[gamepad]
+BTN_TR = Do4
+BTN_SOUTH = Do majeur
+BTN_WEST = Ré mineur
+BTN_EAST = La mineur
+BTN_NORTH = Sol majeur
+```
+
 ### 2.2. Construire des callbacks à appeler sur des boutons
 
 ### 2.3. Charger la configuration et exécuter un code
