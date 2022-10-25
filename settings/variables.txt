@@ -1,0 +1,6 @@
+classroom_tools_url="https://github.com/ClassroomSuite/ClassroomTools"
+template_repo_fullname="INF1007-Gabarits/2021H_ch8_supp_1_exercices"
+test_file="test_exercice.py"
+test_associations_path="settings/test_associations.json"
+org_name="INF1007-2021E"
+repo_filter="2021e-ch8-supp-1-exercices-"
