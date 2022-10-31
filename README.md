@@ -1,12 +1,12 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-# Manettes et claviers (chapitre 8.1)
+# Manettes et claviers (chapitre 8)
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
 ## Appareils d'entrée/sortie 
 
-Dans cette série d'exercices, nous utiliserons un clavier MIDI comme au chapitre 7.2, mais en sortie plutôt qu'en entrée. Nous utiliserons aussi une manette de jeu (de style Xbox) en entrée grâce à la librairie [inputs](https://pypi.org/project/inputs/).
+Dans cette série d'exercices, nous utiliserons un clavier MIDI comme au chapitre 7, mais en sortie plutôt qu'en entrée. Nous utiliserons aussi une manette de jeu (de style Xbox) en entrée grâce à la librairie [inputs](https://pypi.org/project/inputs/).
 
 ## 1. Associations MIDI, notes et accords
 
@@ -85,5 +85,7 @@ BTN_NORTH = Sol majeur
 ```
 
 ### 2.2. Construire des callbacks à appeler sur des boutons
+
+On veut par exemple envoyer une note au clavier lorsqu'un bouton de la manette est appuyé. La librairie mido qu'on utilise 
 
 ### 2.3. Charger la configuration et exécuter un code
